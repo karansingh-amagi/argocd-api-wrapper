@@ -1,0 +1,579 @@
+[
+	{
+		"result": {
+			"content": "Welcome to mongo-express",
+			"timeStamp": "2023-02-07T10:35:07Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:07.311928215Z",
+			"podName": "mongo-express-5b977585d7-7bkw5"
+		}
+	},
+	{
+		"result": {
+			"content": "------------------------",
+			"timeStamp": "2023-02-07T10:35:07Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:07.312463715Z",
+			"podName": "mongo-express-5b977585d7-7bkw5"
+		}
+	},
+	{ "result": { "content": "", "timeStamp": "2023-02-07T10:35:07Z", "last": false, "timeStampStr": "2023-02-07T10:35:07.31248509Z", "podName": "mongo-express-5b977585d7-7bkw5" } },
+	{ "result": { "content": "", "timeStamp": "2023-02-07T10:35:07Z", "last": false, "timeStampStr": "2023-02-07T10:35:07.312490923Z", "podName": "mongo-express-5b977585d7-7bkw5" } },
+	{
+		"result": {
+			"content": "(node:7) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.",
+			"timeStamp": "2023-02-07T10:35:07Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:07.396356506Z",
+			"podName": "mongo-express-5b977585d7-7bkw5"
+		}
+	},
+	{
+		"result": {
+			"content": "Could not connect to database using connectionString: mongodb://username:password@mongodb-service:27017/\"",
+			"timeStamp": "2023-02-07T10:35:07Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:07.405168923Z",
+			"podName": "mongo-express-5b977585d7-7bkw5"
+		}
+	},
+	{
+		"result": {
+			"content": "(node:7) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongodb-service:27017] on first connect [Error: connect ECONNREFUSED 10.111.158.181:27017",
+			"timeStamp": "2023-02-07T10:35:07Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:07.405855006Z",
+			"podName": "mongo-express-5b977585d7-7bkw5"
+		}
+	},
+	{
+		"result": {
+			"content": "    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1144:16) {",
+			"timeStamp": "2023-02-07T10:35:07Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:07.405864881Z",
+			"podName": "mongo-express-5b977585d7-7bkw5"
+		}
+	},
+	{
+		"result": {
+			"content": "  name: 'MongoNetworkError'",
+			"timeStamp": "2023-02-07T10:35:07Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:07.405868465Z",
+			"podName": "mongo-express-5b977585d7-7bkw5"
+		}
+	},
+	{ "result": { "content": "}]", "timeStamp": "2023-02-07T10:35:07Z", "last": false, "timeStampStr": "2023-02-07T10:35:07.405876756Z", "podName": "mongo-express-5b977585d7-7bkw5" } },
+	{
+		"result": {
+			"content": "    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)",
+			"timeStamp": "2023-02-07T10:35:07Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:07.405884631Z",
+			"podName": "mongo-express-5b977585d7-7bkw5"
+		}
+	},
+	{
+		"result": {
+			"content": "    at Pool.emit (events.js:314:20)",
+			"timeStamp": "2023-02-07T10:35:07Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:07.405891715Z",
+			"podName": "mongo-express-5b977585d7-7bkw5"
+		}
+	},
+	{
+		"result": {
+			"content": "    at /node_modules/mongodb/lib/core/connection/pool.js:564:14",
+			"timeStamp": "2023-02-07T10:35:07Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:07.40589484Z",
+			"podName": "mongo-express-5b977585d7-7bkw5"
+		}
+	},
+	{
+		"result": {
+			"content": "    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11",
+			"timeStamp": "2023-02-07T10:35:07Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:07.405897923Z",
+			"podName": "mongo-express-5b977585d7-7bkw5"
+		}
+	},
+	{
+		"result": {
+			"content": "    at /node_modules/mongodb/lib/core/connection/connect.js:32:7",
+			"timeStamp": "2023-02-07T10:35:07Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:07.40590334Z",
+			"podName": "mongo-express-5b977585d7-7bkw5"
+		}
+	},
+	{
+		"result": {
+			"content": "    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)",
+			"timeStamp": "2023-02-07T10:35:07Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:07.405908506Z",
+			"podName": "mongo-express-5b977585d7-7bkw5"
+		}
+	},
+	{
+		"result": {
+			"content": "    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)",
+			"timeStamp": "2023-02-07T10:35:07Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:07.405911715Z",
+			"podName": "mongo-express-5b977585d7-7bkw5"
+		}
+	},
+	{
+		"result": {
+			"content": "    at Object.onceWrapper (events.js:421:26)",
+			"timeStamp": "2023-02-07T10:35:07Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:07.405914965Z",
+			"podName": "mongo-express-5b977585d7-7bkw5"
+		}
+	},
+	{
+		"result": {
+			"content": "    at Socket.emit (events.js:314:20)",
+			"timeStamp": "2023-02-07T10:35:07Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:07.405918756Z",
+			"podName": "mongo-express-5b977585d7-7bkw5"
+		}
+	},
+	{
+		"result": {
+			"content": "    at emitErrorNT (internal/streams/destroy.js:92:8)",
+			"timeStamp": "2023-02-07T10:35:07Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:07.405926215Z",
+			"podName": "mongo-express-5b977585d7-7bkw5"
+		}
+	},
+	{
+		"result": {
+			"content": "    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)",
+			"timeStamp": "2023-02-07T10:35:07Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:07.405932298Z",
+			"podName": "mongo-express-5b977585d7-7bkw5"
+		}
+	},
+	{
+		"result": {
+			"content": "    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+			"timeStamp": "2023-02-07T10:35:07Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:07.40593534Z",
+			"podName": "mongo-express-5b977585d7-7bkw5"
+		}
+	},
+	{
+		"result": {
+			"content": "(node:7) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)",
+			"timeStamp": "2023-02-07T10:35:07Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:07.405939048Z",
+			"podName": "mongo-express-5b977585d7-7bkw5"
+		}
+	},
+	{
+		"result": {
+			"content": "(node:7) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.",
+			"timeStamp": "2023-02-07T10:35:07Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:07.405956131Z",
+			"podName": "mongo-express-5b977585d7-7bkw5"
+		}
+	},
+	{
+		"result": {
+			"content": "Welcome to mongo-express",
+			"timeStamp": "2023-02-07T10:35:15Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:15.520065552Z",
+			"podName": "mongo-express-5b977585d7-8mp4n"
+		}
+	},
+	{
+		"result": {
+			"content": "------------------------",
+			"timeStamp": "2023-02-07T10:35:15Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:15.520273927Z",
+			"podName": "mongo-express-5b977585d7-8mp4n"
+		}
+	},
+	{ "result": { "content": "", "timeStamp": "2023-02-07T10:35:15Z", "last": false, "timeStampStr": "2023-02-07T10:35:15.520287135Z", "podName": "mongo-express-5b977585d7-8mp4n" } },
+	{ "result": { "content": "", "timeStamp": "2023-02-07T10:35:15Z", "last": false, "timeStampStr": "2023-02-07T10:35:15.520290719Z", "podName": "mongo-express-5b977585d7-8mp4n" } },
+	{
+		"result": {
+			"content": "(node:7) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.",
+			"timeStamp": "2023-02-07T10:35:15Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:15.530120469Z",
+			"podName": "mongo-express-5b977585d7-8mp4n"
+		}
+	},
+	{
+		"result": {
+			"content": "Could not connect to database using connectionString: mongodb://username:password@mongodb-service:27017/\"",
+			"timeStamp": "2023-02-07T10:35:15Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:15.59050301Z",
+			"podName": "mongo-express-5b977585d7-8mp4n"
+		}
+	},
+	{
+		"result": {
+			"content": "(node:7) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongodb-service:27017] on first connect [Error: connect ECONNREFUSED 10.111.158.181:27017",
+			"timeStamp": "2023-02-07T10:35:15Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:15.592293927Z",
+			"podName": "mongo-express-5b977585d7-8mp4n"
+		}
+	},
+	{
+		"result": {
+			"content": "    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1144:16) {",
+			"timeStamp": "2023-02-07T10:35:15Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:15.592326094Z",
+			"podName": "mongo-express-5b977585d7-8mp4n"
+		}
+	},
+	{
+		"result": {
+			"content": "  name: 'MongoNetworkError'",
+			"timeStamp": "2023-02-07T10:35:15Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:15.592331344Z",
+			"podName": "mongo-express-5b977585d7-8mp4n"
+		}
+	},
+	{ "result": { "content": "}]", "timeStamp": "2023-02-07T10:35:15Z", "last": false, "timeStampStr": "2023-02-07T10:35:15.592334719Z", "podName": "mongo-express-5b977585d7-8mp4n" } },
+	{
+		"result": {
+			"content": "    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)",
+			"timeStamp": "2023-02-07T10:35:15Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:15.59233776Z",
+			"podName": "mongo-express-5b977585d7-8mp4n"
+		}
+	},
+	{
+		"result": {
+			"content": "    at Pool.emit (events.js:314:20)",
+			"timeStamp": "2023-02-07T10:35:15Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:15.592350219Z",
+			"podName": "mongo-express-5b977585d7-8mp4n"
+		}
+	},
+	{
+		"result": {
+			"content": "    at /node_modules/mongodb/lib/core/connection/pool.js:564:14",
+			"timeStamp": "2023-02-07T10:35:15Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:15.592354844Z",
+			"podName": "mongo-express-5b977585d7-8mp4n"
+		}
+	},
+	{
+		"result": {
+			"content": "    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11",
+			"timeStamp": "2023-02-07T10:35:15Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:15.592357844Z",
+			"podName": "mongo-express-5b977585d7-8mp4n"
+		}
+	},
+	{
+		"result": {
+			"content": "    at /node_modules/mongodb/lib/core/connection/connect.js:32:7",
+			"timeStamp": "2023-02-07T10:35:15Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:15.59236076Z",
+			"podName": "mongo-express-5b977585d7-8mp4n"
+		}
+	},
+	{
+		"result": {
+			"content": "    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)",
+			"timeStamp": "2023-02-07T10:35:15Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:15.592363719Z",
+			"podName": "mongo-express-5b977585d7-8mp4n"
+		}
+	},
+	{
+		"result": {
+			"content": "    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)",
+			"timeStamp": "2023-02-07T10:35:15Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:15.59236676Z",
+			"podName": "mongo-express-5b977585d7-8mp4n"
+		}
+	},
+	{
+		"result": {
+			"content": "    at Object.onceWrapper (events.js:421:26)",
+			"timeStamp": "2023-02-07T10:35:15Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:15.592397469Z",
+			"podName": "mongo-express-5b977585d7-8mp4n"
+		}
+	},
+	{
+		"result": {
+			"content": "    at Socket.emit (events.js:314:20)",
+			"timeStamp": "2023-02-07T10:35:15Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:15.59240326Z",
+			"podName": "mongo-express-5b977585d7-8mp4n"
+		}
+	},
+	{
+		"result": {
+			"content": "    at emitErrorNT (internal/streams/destroy.js:92:8)",
+			"timeStamp": "2023-02-07T10:35:15Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:15.592406344Z",
+			"podName": "mongo-express-5b977585d7-8mp4n"
+		}
+	},
+	{
+		"result": {
+			"content": "    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)",
+			"timeStamp": "2023-02-07T10:35:15Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:15.592409219Z",
+			"podName": "mongo-express-5b977585d7-8mp4n"
+		}
+	},
+	{
+		"result": {
+			"content": "    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+			"timeStamp": "2023-02-07T10:35:15Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:15.592412135Z",
+			"podName": "mongo-express-5b977585d7-8mp4n"
+		}
+	},
+	{
+		"result": {
+			"content": "(node:7) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)",
+			"timeStamp": "2023-02-07T10:35:15Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:15.592415344Z",
+			"podName": "mongo-express-5b977585d7-8mp4n"
+		}
+	},
+	{
+		"result": {
+			"content": "(node:7) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.",
+			"timeStamp": "2023-02-07T10:35:15Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:15.592419219Z",
+			"podName": "mongo-express-5b977585d7-8mp4n"
+		}
+	},
+	{
+		"result": {
+			"content": "Welcome to mongo-express",
+			"timeStamp": "2023-02-07T10:35:19Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:19.007457637Z",
+			"podName": "mongo-express-5b977585d7-zz9z7"
+		}
+	},
+	{
+		"result": {
+			"content": "------------------------",
+			"timeStamp": "2023-02-07T10:35:19Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:19.007682637Z",
+			"podName": "mongo-express-5b977585d7-zz9z7"
+		}
+	},
+	{ "result": { "content": "", "timeStamp": "2023-02-07T10:35:19Z", "last": false, "timeStampStr": "2023-02-07T10:35:19.00769522Z", "podName": "mongo-express-5b977585d7-zz9z7" } },
+	{ "result": { "content": "", "timeStamp": "2023-02-07T10:35:19Z", "last": false, "timeStampStr": "2023-02-07T10:35:19.007699137Z", "podName": "mongo-express-5b977585d7-zz9z7" } },
+	{
+		"result": {
+			"content": "(node:7) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.",
+			"timeStamp": "2023-02-07T10:35:19Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:19.018534304Z",
+			"podName": "mongo-express-5b977585d7-zz9z7"
+		}
+	},
+	{
+		"result": {
+			"content": "Could not connect to database using connectionString: mongodb://username:password@mongodb-service:27017/\"",
+			"timeStamp": "2023-02-07T10:35:19Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:19.023336679Z",
+			"podName": "mongo-express-5b977585d7-zz9z7"
+		}
+	},
+	{
+		"result": {
+			"content": "(node:7) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongodb-service:27017] on first connect [Error: connect ECONNREFUSED 10.111.158.181:27017",
+			"timeStamp": "2023-02-07T10:35:19Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:19.09051822Z",
+			"podName": "mongo-express-5b977585d7-zz9z7"
+		}
+	},
+	{
+		"result": {
+			"content": "    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1144:16) {",
+			"timeStamp": "2023-02-07T10:35:19Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:19.090583179Z",
+			"podName": "mongo-express-5b977585d7-zz9z7"
+		}
+	},
+	{
+		"result": {
+			"content": "  name: 'MongoNetworkError'",
+			"timeStamp": "2023-02-07T10:35:19Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:19.090589012Z",
+			"podName": "mongo-express-5b977585d7-zz9z7"
+		}
+	},
+	{ "result": { "content": "}]", "timeStamp": "2023-02-07T10:35:19Z", "last": false, "timeStampStr": "2023-02-07T10:35:19.09059272Z", "podName": "mongo-express-5b977585d7-zz9z7" } },
+	{
+		"result": {
+			"content": "    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)",
+			"timeStamp": "2023-02-07T10:35:19Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:19.090595929Z",
+			"podName": "mongo-express-5b977585d7-zz9z7"
+		}
+	},
+	{
+		"result": {
+			"content": "    at Pool.emit (events.js:314:20)",
+			"timeStamp": "2023-02-07T10:35:19Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:19.090600887Z",
+			"podName": "mongo-express-5b977585d7-zz9z7"
+		}
+	},
+	{
+		"result": {
+			"content": "    at /node_modules/mongodb/lib/core/connection/pool.js:564:14",
+			"timeStamp": "2023-02-07T10:35:19Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:19.090604345Z",
+			"podName": "mongo-express-5b977585d7-zz9z7"
+		}
+	},
+	{
+		"result": {
+			"content": "    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11",
+			"timeStamp": "2023-02-07T10:35:19Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:19.090607637Z",
+			"podName": "mongo-express-5b977585d7-zz9z7"
+		}
+	},
+	{
+		"result": {
+			"content": "    at /node_modules/mongodb/lib/core/connection/connect.js:32:7",
+			"timeStamp": "2023-02-07T10:35:19Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:19.090635929Z",
+			"podName": "mongo-express-5b977585d7-zz9z7"
+		}
+	},
+	{
+		"result": {
+			"content": "    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)",
+			"timeStamp": "2023-02-07T10:35:19Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:19.090653304Z",
+			"podName": "mongo-express-5b977585d7-zz9z7"
+		}
+	},
+	{
+		"result": {
+			"content": "    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)",
+			"timeStamp": "2023-02-07T10:35:19Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:19.09065672Z",
+			"podName": "mongo-express-5b977585d7-zz9z7"
+		}
+	},
+	{
+		"result": {
+			"content": "    at Object.onceWrapper (events.js:421:26)",
+			"timeStamp": "2023-02-07T10:35:19Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:19.090659845Z",
+			"podName": "mongo-express-5b977585d7-zz9z7"
+		}
+	},
+	{
+		"result": {
+			"content": "    at Socket.emit (events.js:314:20)",
+			"timeStamp": "2023-02-07T10:35:19Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:19.090662387Z",
+			"podName": "mongo-express-5b977585d7-zz9z7"
+		}
+	},
+	{
+		"result": {
+			"content": "    at emitErrorNT (internal/streams/destroy.js:92:8)",
+			"timeStamp": "2023-02-07T10:35:19Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:19.090664595Z",
+			"podName": "mongo-express-5b977585d7-zz9z7"
+		}
+	},
+	{
+		"result": {
+			"content": "    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)",
+			"timeStamp": "2023-02-07T10:35:19Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:19.090667262Z",
+			"podName": "mongo-express-5b977585d7-zz9z7"
+		}
+	},
+	{
+		"result": {
+			"content": "    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+			"timeStamp": "2023-02-07T10:35:19Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:19.09066997Z",
+			"podName": "mongo-express-5b977585d7-zz9z7"
+		}
+	},
+	{
+		"result": {
+			"content": "(node:7) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)",
+			"timeStamp": "2023-02-07T10:35:19Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:19.090672762Z",
+			"podName": "mongo-express-5b977585d7-zz9z7"
+		}
+	},
+	{
+		"result": {
+			"content": "(node:7) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.",
+			"timeStamp": "2023-02-07T10:35:19Z",
+			"last": false,
+			"timeStampStr": "2023-02-07T10:35:19.090676304Z",
+			"podName": "mongo-express-5b977585d7-zz9z7"
+		}
+	},
+	{ "result": { "content": "", "timeStamp": "2023-02-07T10:46:26Z", "last": true, "timeStampStr": "2023-02-07T10:46:26.601334251Z", "podName": "" } }
+]
